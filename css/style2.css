@@ -1,0 +1,739 @@
+/* --------- Body Part --------- */
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+/* --------- Typography Part --------- */
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #050931;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #050931;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8F91A1;
+    line-height: 30px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8F91A1 ;
+}
+.p-light{
+    font-weight: 300;
+    color: #EAEBF5;
+}
+
+/* --------- Spacing Part --------- */
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.color-white{
+    color: #FFF;
+}
+
+/* --------- Nav Part --------- */
+.navbar {
+    background: #ECF1F4  !important;
+    padding: 15px 0 !important;
+}
+.navbar .nav-item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #636972 !important;
+    margin: 0 15px;
+    padding: 0;
+    transition: all .4s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+    color: #55BC7E !important;
+}
+.navbar .main-btn {
+    background: #49A16C;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 45px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    transition: all .4s ease-in-out;
+}
+.navbar .main-btn:hover {
+    background-color: #34754E;
+}
+
+/* --------- Section 1 Part --------- */
+.section1 {
+    height: 90vh;
+    background: #ECF1F4;
+    position: relative;
+}
+.section1 .dots{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.section1 span {
+    background: #D3E8E1;
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: #4E6570;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.form-control {
+    padding: 18px 20px !important;
+    outline: 0  !important;
+    border: 0 !important;
+    border-radius: 5px 0 0 5px !important;
+    font-size: 13px !important;
+    color: #CED3D9 !important;
+}
+.form-btn {
+    background: #55BC7E !important;
+    height: 100% !important;
+    width: 100% !important;
+    color: #FFF !important;
+    border-radius: 0 5px 5px 0 !important;
+    transition: all .4s ease-in-out !important;
+}
+.form-btn:hover{
+    background: #34754E !important;
+    color: #fff !important;
+}
+.form-shadow {
+    box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+    -moz-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+}
+.section1 .section1-img{
+    width: 70%;
+}
+
+/* --------- Section 2 --------- */
+.section2{
+    padding: 100px 0;
+}
+.section2 .about-box{
+    text-align: center;
+    padding: 0 40px;
+}
+.more-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #373B61;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+
+}
+.more-btn:hover{
+    color: #34754E;
+}
+
+/* --------- Section 3 --------- */
+.section3{
+    padding: 100px 0;
+    background: #FFF;
+}
+
+/* --------- Section 4 --------- */
+.section4{
+    text-align: center;
+    padding: 100px 0;
+    background: #344763;
+}
+
+/* --------- Section 5 --------- */
+.section5{
+    padding: 100px 0;
+    background: #FFF;
+}
+
+/* --------- Section 6 --------- */
+.section6{
+    padding: 100px 0;
+    background: #ECF1F4;
+}
+
+.section6Heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section6 .card{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.section6 h5{
+    color: #3C3F60;
+}
+.section6 p{
+    color: #8F91A1;
+}
+.section6 .row{
+    padding-bottom: 40px;
+}
+.cardimg{
+    width: 80px;
+    height: 80px;
+    margin: 35px;
+}
+
+/* --------- Section 7 --------- */
+.section7{
+    padding: 100px 0;
+    background: #FFF;
+}
+
+.img{
+    width: 80%;
+    height: 80%;
+}
+
+/* --------- Section 8 --------- */
+.section8{
+    text-align: center;
+    padding: 100px 0;
+    background: #344763;
+
+}
+.sub-btn {
+    background: #55BC7E !important;
+    height: 100% !important;
+    width: 30% !important;  
+    color: #FFF !important;
+    border-radius: 4px 4px 4px 4px !important;
+    transition: all .4s ease-in-out !important;
+}
+.sub-btn:hover{
+    background: #34754E !important;
+    color: #fff !important;
+}
+
+
+/* --------- Section 9 --------- */
+.section9{
+    padding: 100px 0;
+    background: #fff !important;
+}
+
+.section9Heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section9 .card{
+    text-align: center;
+    padding-bottom: 35px;
+    box-shadow: #4E6570;
+}
+.section9 h5{
+    color: #3C3F60;
+}
+.section9 p{
+    color: #8F91A1;
+}
+.section9 h5{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #55BC7E;
+}
+.section9 h1{
+    padding-bottom: 80px;
+    color: #050931;
+    font-weight: 600;
+    font-size: 45px;
+}
+.section9 p{
+    padding-bottom: 15px;
+    color: #4B4E70;
+    font-weight: 500;
+
+}
+.card {
+    box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+    -moz-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+}
+.card-btn {
+    background: #55BC7E !important;
+    height: 100% !important;
+    width: 50% !important;  
+    color: #FFF !important;
+    border-radius: 4px 4px 4px 4px !important;
+    transition: all .4s ease-in-out !important;
+}
+.card-btn:hover{
+    background: #34754E !important;
+    color: #fff !important;
+}
+
+/* --------- Section 10 --------- */
+.section10{
+    padding: 100px 0;
+    background: #ECF1F4;
+    text-align: center;
+}
+
+.section10Heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section10 h4{
+    padding-top: 35px;
+    color: #131848;
+}
+.section10 p{
+    padding-top: 40px;
+    color: #8F91A1;
+}
+
+/* --------- Section 11 --------- */
+.section11{
+    padding: 100px 0;
+    background: #fff !important;
+}
+
+.section11Heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section11 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #131848;
+}
+.section11 p{
+    color: #8F91A1;
+    font-weight: 500;
+}
+.section11 a{
+    color: #55BC7E;
+    font-weight: 500;
+}
+.section11 .card{
+    text-align: left;
+}
+
+.postcard{
+    margin-left: -25px;
+    margin-top: -18px;
+    width: 449px !important;
+    
+}
+/* --------- Section 12 --------- */
+.section12{
+    padding: 100px 0;
+    background: #ECF1F4;
+}
+
+.section12 label{
+    color: #FFF !important;
+    font-size: 20px;
+}
+
+.form{
+    color: #131848 !important;
+    font-size: 20px !important; 
+    border-radius: 5px !important;
+}
+.formbtn{
+    background: #55BC7E !important;
+    height: 60px !important;
+    width: 100% !important;  
+    font-size: 20px !important;
+    color: #FFF !important;
+    border-radius: 4px 4px 4px 4px !important;
+    transition: all .4s ease-in-out !important;
+}
+
+.formbtn:hover{
+    background: #34754E !important;
+    color: #fff !important;
+}
+
+.section12 .form-control {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section12 input{
+    margin-bottom: 25px !important;
+}
+
+.section12 h1{
+    color: #4E6570 !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section12 img{
+    align-self: center;
+    height: 85%;
+    width: 85%;
+}
+.imgAlign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and  (max-width: 480px) {
+
+    h1{
+        font-size: 20px !important;
+        line-height: 50px;
+        font-weight: 500;
+        color: #050931;
+    }
+    h2{
+        font-size: 15px !important;
+        line-height: 40px;
+        font-weight: 600;
+        color: #050931;
+    }
+    h3{
+        font-size: 24px !important;
+        font-weight: 500 !important;
+        line-height: 15px !important;
+    }
+    p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #8F91A1 ;
+    }
+    .p-light{
+        font-weight: 300;
+        color: #EAEBF5;
+    }
+
+    .section1 {
+        height: 40vh;
+        background: #ECF1F4;
+        position: relative;
+    }
+    .section1 .dots{
+        height: 330px;
+    }
+    .section1 span {
+        background: #D3E8E1;
+        display: inline-block;
+        padding: 6px 20px;
+        border-radius: 30px;
+        color: #4E6570;
+        font-size: 8px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    
+    .form-control {
+        margin-left: 10px ;
+        padding: 18px 20px !important;
+        outline: 0  !important;
+        border: 0 !important;
+        border-radius: 5px 0 0 5px !important;
+        font-size: 5px !important;
+        color: #CED3D9 !important;
+        width: 100px !important;
+        height: 8px !important;
+    }
+    .form-btn {
+        margin-left: -45px ;
+        background: #55BC7E !important;
+        width: 100px !important;
+        height: 35px !important;
+        color: #FFF !important;
+        border-radius: 0 5px 5px 0 !important;
+        transition: all .4s ease-in-out !important;
+        font-size: 8px !important;
+    }
+    .form-btn:hover{
+        background: #34754E !important;
+        color: #fff !important;
+    }
+    .form-shadow {
+        box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+        -webkit-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+        -moz-box-shadow: 0px 10px 25px 0px rgba(70,85,103,0.08) !important;
+    }
+    .section1 .section1-img{
+        width: 100%;
+    }
+
+    /* --------- Section 2 --------- */
+
+    .section2 .about-box{
+        text-align: center;
+        padding: 0 40px;
+    }
+    .section2 .about-box img{
+        width: 40px !important;
+    }
+
+    /* --------- Section 3 --------- */
+
+    .section3 img{
+        height: 150px !important;
+    }
+    .section3 .on{
+        height: 40px !important;
+    }
+    .more-btn{
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        margin-top: -5px !important;
+        color: #373B61;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .4s ease-in-out;
+    }
+    
+    /* --------- Section 4 --------- */
+    .section4{
+        text-align: center;
+        padding: 100px 0;
+        background: #344763;
+    }
+    .section4 .form-btn{
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        margin-left: -65px !important;
+        
+    }
+
+    /* --------- Section 5 --------- */
+
+    .section5 img{
+        height: 150px !important;
+    }
+    .section5 .on{
+        height: 40px !important;
+    }
+    .more-btn{
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        margin-top: -5px !important;
+        color: #373B61;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .4s ease-in-out;
+    }
+
+    /* --------- Section 6 --------- */
+
+    .section6Heading{
+        text-align: center;
+    }
+    .section6Heading img{
+        height: 50px !important;
+    }
+    .section6 .card{
+        margin-left: 100px;
+        text-align: center !important;
+
+    }
+    .section6 h5{
+        color: #3C3F60;
+    }
+    .section6 p{
+        color: #8F91A1;
+    }
+    .section6 .col{
+        padding-bottom: 30px;
+    }
+    .cardimg{
+        width: 80px;
+        height: 80px;
+        margin: 35px;
+    }
+
+    
+    /* --------- Section 7 --------- */
+
+    .img{
+        width: 80%;
+        height: 80%;
+        margin-left: 30px !important;
+    }
+
+    .section7 .row{
+        margin-left: -25px;
+    }
+    .section7 .row .col-2 img{
+        height: 40px !important;
+    }
+    .section7 .row h5{
+        font-size: 10px !important;
+        
+    }
+    .section7 .row p{
+        font-size: 8px !important;
+        margin-top: -8px;
+    }
+    .section7 .row .col-10{
+        margin-top: 10px;
+    }
+
+    /* --------- Section 8 --------- */
+    .sub-btn {
+        background: #55BC7E !important;
+        height: 100% !important;
+        width: 60% !important;  
+        color: #FFF !important;
+        font-size: 10px !important;
+        border-radius: 4px 4px 4px 4px !important;
+        transition: all .4s ease-in-out !important;
+    }
+
+    /* --------- Section 9 --------- */
+    .section9Heading img{
+        height: 50px !important;
+    }
+    .section9 .card{
+        margin-left: 60px !important;
+        text-align: center !important;
+        box-shadow: #4E6570;
+        margin-bottom: 10px;
+    }
+    .section9 .card-title{
+        font-size: 50px !important;
+        margin-bottom: -55px !important;
+    }
+    .section9 .card-text{
+        margin-bottom: 2px !important;
+    }
+
+
+    .card-btn {
+        font-size: 10px !important;
+        background: #55BC7E !important;
+        height: 100% !important;
+        width: 40% !important;  
+        color: #FFF !important;
+        border-radius: 4px 4px 4px 4px !important;
+        transition: all .4s ease-in-out !important;
+    }
+
+    /* --------- Section 10 --------- */
+    .section10 .row{
+        margin-top: -30px;
+    }
+    .section10 h4{
+        font-size: 15px !important;
+        margin-top: -20px;
+        margin-bottom: -30px;
+    }
+    .section10 p{
+        font-size: 13px !important;
+        line-height: 20px;
+    }
+
+    /* --------- Section 11 --------- */
+    .section11Heading img{
+        height: 50px !important;
+        margin-bottom: -20px;
+    }
+    .section11 .card{
+        margin-left: 50px !important;
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+
+    .section11 h5{
+        font-size: 15px !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #131848;
+    }
+    .section11 p{
+        font-size: 13px !important;
+        line-height: 20px;
+        margin-top: -20px !important;
+    }
+    .section11 a{
+        color: #55BC7E;
+        font-weight: 500;
+        font-size: 13px !important;
+    }
+
+    /* --------- Section 12 --------- */
+    .form{
+        color: #131848 !important;
+        font-size: 10px !important; 
+        border-radius: 5px !important;
+    }
+    .formbtn{
+        background: #55BC7E !important;
+        height: 10% !important;
+        width: 175px !important;
+        font-size: 10px !important;
+        color: #FFF !important;
+        margin-left: 10px;
+        border-radius: 4px 4px 4px 4px !important;
+        transition: all .4s ease-in-out !important;
+    }
+
+    .section12 .form-control {
+        margin-bottom: 5px;
+        width: 175px !important;
+        height: 10px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .imgAlign img{
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .social a{
+        font-size: 10px;
+        margin-left: 5px !important;
+        margin-right: 1px !important;
+    }
+    .social{
+        margin-left: 40px !important;
+    }
+
+    .copyright{
+        font-size: 10px;
+        text-align: left;
+    }
+
+}
+
+
+
+
